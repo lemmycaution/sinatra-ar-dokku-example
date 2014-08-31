@@ -1,0 +1,20 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: testar_development
+  # pool: 5
+  # connections: 20
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: testar_test
+  # pool: 5
+  # connections: 20
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: testar_production
+  # pool: 5
+  # connections: 20
